@@ -121,8 +121,23 @@ public class Operadores {
 
         System.out.println(nomeUm.equals(nomeDois)); // true compara o conteudo para objetos
         
+    // operadores lógicos: && || ! permitem criar expressões lógicas maiores
+        // concepção de tabela verdade de variavel booleana ou expressao relacional
 
+        boolean expressao1 = true;
 
+        boolean expressao2 = false;
+
+        if (expressao1 && expressao2) {
+            System.out.println("expressao1 e expressao2 são verdadeiras, as duas ao mesmo tempo");
+        }
+
+        if (expressao1 || expressao2) {
+            System.out.println("/nexpressao1 ou expressao2 são verdadeiras, uma das duas é verdadeira");
+        }
+
+        System.out.println("fim");
+        
 
     }
 }
