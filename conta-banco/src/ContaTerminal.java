@@ -23,12 +23,9 @@ public class ContaTerminal {
 
 
         System.out.println("Conta criada com sucesso!");
-        System.out.println("Número da conta: " + conta.numero);
-        System.out.println("Agência: " + conta.agencia);
-        System.out.println("Nome do Cliente: " + conta.nomeCliente);
-        System.out.println("Saldo: " + conta.saldo);
+        System.out.println("Olá " + conta.nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + conta.agencia + ", conta " + conta.numero + " e seu saldo " + conta.saldo + " já está disponível para saque.");
 
-        
+        scanner.close();
 
     }
 }
